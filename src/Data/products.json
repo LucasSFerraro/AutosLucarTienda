@@ -1,0 +1,98 @@
+[
+	{
+		"name": "2021 BMW 5-series",
+		"avatar": "https://hips.hearstapps.com/hmg-prod/images/2021-bmw-530e-481-edit-1611852114.jpg?crop=0.654xw:0.549xh;0.343xw,0.444xh&resize=2048:*",
+		"stock": 10,
+		"category": "Sedan",
+		"id": "1",
+		"price": 51000
+	},
+	{
+		"name": "2023 Ford Bronco",
+		"avatar": "https://hips.hearstapps.com/hmg-prod/images/2023-ford-bronco-heritage-edition-in-race-red-101-1660224575.jpg?crop=0.843xw:0.712xh;0.0176xw,0.209xh&resize=2048:*",
+		"stock": 10,
+		"category": "SUV",
+		"id": "2",
+		"price": 54000
+	},
+	{
+		"name": "2021 Bentley Continental",
+		"avatar": "https://hips.hearstapps.com/hmg-prod/images/2021-bentley-continental-gt-mmp-1-1595530224.jpg?crop=0.740xw:0.625xh;0.178xw,0.236xh&resize=2048:*",
+		"stock": 10,
+		"category": "Sport",
+		"id": "3",
+		"price": 200000
+	},
+	{
+		"name": "2020 Mercedes-AMG S65",
+		"avatar": "https://hips.hearstapps.com/hmg-prod/images/f8a2560-source-1578586393.jpg?crop=0.769xw:0.658xh;0.231xw,0.193xh&resize=2048:*",
+		"stock": 10,
+		"category": "Sport",
+		"id": "4",
+		"price": 171000
+	},
+	{
+		"name": "2023 Mazda MX-5 Miata",
+		"avatar": "https://hips.hearstapps.com/hmg-prod/images/2023-maza-mx-5-miata-103-1669758490.jpg?crop=0.909xw:0.768xh;0.0293xw,0.178xh&resize=2048:*",
+		"stock": 10,
+		"category": "Sport",
+		"id": "5",
+		"price": 30000
+	},
+	{
+		"name": "2023 Honda Accord EX",
+		"avatar": "https://hips.hearstapps.com/hmg-prod/images/dsc00620-1677186777.jpg?crop=0.644xw:0.543xh;0.258xw,0.300xh&resize=2048:*",
+		"stock": 10,
+		"category": "Sedan",
+		"id": "6",
+		"price": 30000
+	},
+	{
+		"name": "2023 Audi SQ7",
+		"avatar": "https://hips.hearstapps.com/hmg-prod/images/2023-audi-sq7-front-exterior-1657131083.jpg?crop=0.785xw:0.663xh;0.215xw,0.220xh&resize=2048:*",
+		"stock": 10,
+		"category": "SUV",
+		"id": "7",
+		"price": 92000
+	},
+	{
+		"name": "2022 Subaru Impreza",
+		"avatar": "https://hips.hearstapps.com/hmg-prod/images/2022-subaru-impreza-mmp-1-1624482155.jpg?crop=1.00xw:0.847xh;0,0.0887xh&resize=2048:*",
+		"stock": 10,
+		"category": "Hatchback",
+		"id": "8",
+		"price": 20000
+	},
+	{
+		"name": "2019 Chevrolet Volt",
+		"avatar": "https://hips.hearstapps.com/hmg-prod/images/2017-chevrolet-volt-premier-102-1551822035.jpg?crop=1.00xw:0.932xh;0,0.0576xh&resize=2048:*",
+		"stock": 10,
+		"category": "Sedan",
+		"id": "9",
+		"price": 10000
+	},
+	{
+		"name": "2021 Smart Fortwo",
+		"avatar": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/07/2017-smart-fortwo-cabriolet-119.jpg?crop=1.00xw:0.924xh;0,0.0759xh&resize=2048:*",
+		"stock": 10,
+		"category": "Hatchback",
+		"id": "10",
+		"price": 16000
+	},
+	{
+		"name": "2023 Nissan Z",
+		"avatar": "https://hips.hearstapps.com/hmg-prod/images/2023-nissan-z-mmp-1-1629244720.jpg?crop=0.897xw:0.957xh;0.0481xw,0.0426xh&resize=2048:*",
+		"stock": 10,
+		"category": "Sport",
+		"id": "11",
+		"price": 42000
+	},
+	{
+		"name": "2021 Volkswagen Golf",
+		"avatar": "https://hips.hearstapps.com/hmg-prod/images/2021-volkswagen-golf-mmp-1-1604508183.jpg?crop=0.814xw:0.688xh;0.175xw,0.255xh&resize=2048:*",
+		"stock": 10,
+		"category": "Hatchback",
+		"id": "12",
+		"price": 24000
+	}
+]

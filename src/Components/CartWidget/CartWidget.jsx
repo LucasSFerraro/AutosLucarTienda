@@ -1,22 +1,21 @@
-import Badge from 'react-bootstrap/Badge';
+import Badge from "react-bootstrap/Badge"
 
-import Cart from './Assets/Cart.png'
+import cart from "./Assets/cart.png"
 
-const styles ={
-    img:{
-        height: 40
-    }
-,
-    span: {
-    paddingLeft: 5,
-}
+const styles = {
+	span: {
+		paddingLeft: 10,
+	},
+	img: {
+		height: 30,
+	},
 }
 
 export const CartWidget = () => {
-    return(
-        <Badge bg="light" text='dark'>
-        <img src={Cart} alt='Imagen de un carrito' style={styles.img}></img>
-        <span style={styles.paddingLeft}>0</span>
-        </Badge>
-    )
+	return (
+		<Badge bg="secondary">
+			<img src={cart} alt="Changuito" style={styles.img} />
+			<span style={styles.span}>0</span>
+		</Badge>
+	)
 }
