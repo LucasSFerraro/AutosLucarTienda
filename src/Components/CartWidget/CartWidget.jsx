@@ -1,6 +1,6 @@
 import Badge from "react-bootstrap/Badge"
 
-import cart from "./Assets/cart.png"
+import cart from "./Assets/Cart.png"
 
 const styles = {
 	span: {
