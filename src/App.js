@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import "./App.css"
 import { ItemDetailContainer } from "./Components/ItemDetailContainer/ItemDetailContainer.jsx"
 import { ItemListContainer } from "./Components/ItemListContainer/ItemListContainer"
-import { NavBar } from "./Components/NavBar.jsx"
+import { NavBar } from "./Components/Navbar.jsx"
 
 function App() {
 	const onAdd = stock => console.log("Stock:  " + stock)
