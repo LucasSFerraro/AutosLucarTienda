@@ -12,7 +12,7 @@ export const Item = ({ item }) => (
 			<Card.Img variant="top" src={item.imageId} />
 		</div>
 		<Card.Body>
-			<Card.Title>{item.name}</Card.Title>
+			<Card.Title>{item.title}</Card.Title>
 			<Card.Text>Categoría: {item.categoryId}</Card.Text>
 			<Card.Text>{item.description}</Card.Text>
 			<Link to={`/item/${item.id}`}>
