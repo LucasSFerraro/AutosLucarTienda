@@ -1,12 +1,23 @@
-import { ItemCounter } from "../ItemCounter/ItemCounter"
+import { useContext } from "react"
 
-export const ItemDetail = ({ product, onAdd }) => {
+import { ItemCount } from "../ItemCount/ItemCount"
+import { CartContext } from "../../Context/cartContext"
+
+export const ItemDetail = ({ product }) => {
+	const { addItem } = useContext(CartContext)
+
+	const onAdd = quantity => addItem(product, quantity)
+
 	return (
 		<div>
-			<h1>{product.name}</h1>
-			<img src={product.avatar} alt={product.name} height={600} />
+			<h1>{product.title}</h1>
+			<img
+				src={product.imageId}
+				height={300}
+				alt={product.title}
+			/>
 			<p>$ {product.price}</p>
-			<ItemCounter stock={product.stock} onAdd={onAdd} />
+			<ItemCount stock={product.stock} onAdd={onAdd} />
 		</div>
 	)
 }
